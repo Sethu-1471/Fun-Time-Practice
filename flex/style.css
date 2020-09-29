@@ -1,0 +1,21 @@
+.container{
+    background: rgb(75, 75, 236);
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.block{
+    padding: 40px;
+}
+.blockone{
+    background: red;
+    flex: 1 1 auto;
+}
+.blocktwo{
+    background: yellow;
+    order: 2;
+    flex-shrink: 5;
+}
+.blockthree{
+    background: green;
+}
